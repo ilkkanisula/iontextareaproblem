@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Page One</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Ionic Menu Starter</h3>
+
+  <p>
+    Demonstrates modal with slides and ion-textarea disappearing when focused. Do this:
+  </p>
+  <ul>
+    <li>Open modal</li>
+    <li>Click the "Type here" text</li>
+    <li>Text area disappers</li>
+    <li>Press any key on keyboard and textarea appears.</li>
+    <li>Click outside textarea to blur selection.</li>
+    <li>Click again to focus and ion-textarea should disappear again.</li>
+  </ul>
+
+
+  <button ion-button (click)="openModal()">Open modal (page2.html)</button>
+
+  <p>Tested on Chrome desktop osx and in Android 6 emulator.</p>
+
+  <pre>
+    $ ionic info
+
+Your system information:
+
+Cordova CLI: 6.4.0 
+Ionic Framework Version: 2.2.0
+Ionic CLI Version: 2.2.1
+Ionic App Lib Version: 2.2.0
+Ionic App Scripts Version: 1.1.4
+ios-deploy version: 1.9.0 
+ios-sim version: 5.0.8 
+OS: OS X El Capitan
+Node Version: v6.6.0
+Xcode version: Xcode 8.2.1 Build version 8C1002
+
+
+  </pre>
+
+</ion-content>
